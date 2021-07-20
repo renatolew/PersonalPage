@@ -1,3 +1,12 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 body {
     background-color: #e0e1dd;
 	color: #0d1b2a;
@@ -5,15 +14,17 @@ body {
 }
 
 .box-navegacao {
-	position: relative;
-	width: 1000px;
+	position: fixed;
+	width: 100%;
 	margin: 0 auto;
+	background-color: #e0e1dd;
 }
 
 nav {
 	position: relative;
     padding: 10px;
     width: 100%;
+	text-align: center;
 }
 
 nav li {
@@ -35,10 +46,12 @@ nav a:hover {
 
 .banner {
 	width: 100%;
+	padding-top: 50px;
 }
 
 section {
 	padding: 3em 0;
+	padding-top: 75px;
 	width: 1060px;
 	margin: 0 auto;
     border-bottom: 1px solid #000000	
@@ -87,6 +100,7 @@ section li {
 .skill-bar {
 	width: 100%; 
   	background-color: #bcbcbc; 
+	margin: 10px
 }
 
 /* Estilização padrão para todas as skills*/
@@ -115,6 +129,7 @@ footer p {
 
 
 
+
 @media screen and (max-width: 480px) {
 	section, .box-navegacao {
 		width: auto;
@@ -122,4 +137,12 @@ footer p {
 
 	h2, h3, h4, p {
 		text-align: center;
+	}
+
+	.box-navegacao {
+		position: static;
+	}
+
+	nav {
+		padding: 0 0;
 	}
