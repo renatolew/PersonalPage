@@ -1,6 +1,7 @@
 body {
     background-color: #e0e1dd;
 	color: #0d1b2a;
+	font-family: 'Roboto', sans-serif;
 }
 
 .box-navegacao {
@@ -56,20 +57,49 @@ h1 {
 
 h2 {
     font-size: 24px;
+	color: #1b263b;
 }
 
 h3, p {
     font-size: 20px;
+	color: #1b263b;
 }
 
 h4 {
     font-size: 16px;
+	color: #1b263b;
+}
+
+section li {
+	color: #415a77;
 }
 
 .alt-cor {
 	background-color: #778da9;
 }
 
+.skill-bar {
+	width: 100%; 
+  	background-color: #bcbcbc; 
+}
+
+.skills {
+	text-align: right;
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	color: white; 
+	padding-right: 5px;
+  }
+
+.python {width: 60%; background-color: #778da9;} 
+.html {width: 80%; background-color: #778da9;} 
+.css {width: 55%; background-color: #778da9;} 
+.js {width: 50%; background-color: #778da9;} 
+.git {width: 80%; background-color: #778da9;} 
+.scrum {width: 90%; background-color: #778da9;} 
+.kanban {width: 85%; background-color: #778da9;} 
+
 footer p {
 	text-align: center;
+	color: #415a77;
 }
