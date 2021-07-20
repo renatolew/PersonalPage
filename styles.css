@@ -1,5 +1,6 @@
 body {
-    background-color: #DDDDDD;
+    background-color: #cad2c5;
+	color: #2f3e46;
 }
 
 .box-navegacao {
@@ -21,7 +22,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #2f3e46;
 	font-weight: bold;
 	font-size: 16px;
 	text-decoration: none;
@@ -31,23 +32,44 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+banner {
+	width: 100%;
+}
+
+section {
+	padding: 3em 0;
+	width: 1060px;
+	margin: 0 auto;
+    border-bottom: 1px solid #000000	
+}
+
+.avatar {
+	width: 240px;
+	float: left;
+	margin: 0 20px 0 20px;
+}
+
 h1 {
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
 }
 
 h2 {
+    font-size: 24px;
+}
+
+h3, p {
     font-size: 20px;
 }
 
-h3 {
+h4 {
     font-size: 16px;
 }
 
-h4 {
-    font-size: 12px;
+.alt-cor {
+	background-color: #84a98c;
 }
 
-section {
-    border-bottom: 1px solid #000000
+footer p {
+	text-align: center;
 }
