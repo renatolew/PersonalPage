@@ -53,11 +53,15 @@ section {
 h1 {
     font-size: 28px;
     text-align: center;
+	font-weight: bold;
+
 }
 
 h2 {
     font-size: 24px;
 	color: #1b263b;
+	text-decoration: underline;
+	margin-top: 50px;
 }
 
 h3, p {
@@ -72,6 +76,7 @@ h4 {
 
 section li {
 	color: #415a77;
+	margin-bottom: 5px;
 }
 
 .alt-cor {
