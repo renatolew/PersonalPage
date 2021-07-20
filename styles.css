@@ -33,7 +33,7 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-banner {
+.banner {
 	width: 100%;
 }
 
@@ -83,11 +83,13 @@ section li {
 	background-color: #778da9;
 }
 
+/* Estilização para a estrutura da skill bar*/
 .skill-bar {
 	width: 100%; 
   	background-color: #bcbcbc; 
 }
 
+/* Estilização padrão para todas as skills*/
 .skills {
 	text-align: right;
 	padding-top: 10px; 
@@ -96,6 +98,7 @@ section li {
 	padding-right: 5px;
   }
 
+/* Estilização específica de cada uma das skill separada por espaço*/
 .python {width: 60%; background-color: #778da9;} 
 .html {width: 80%; background-color: #778da9;} 
 .css {width: 55%; background-color: #778da9;} 
@@ -108,3 +111,15 @@ footer p {
 	text-align: center;
 	color: #415a77;
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+	section, .box-navegacao {
+		width: auto;
+	}
+
+	h2, h3, h4, p {
+		text-align: center;
+	}
