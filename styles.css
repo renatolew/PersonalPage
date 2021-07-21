@@ -115,11 +115,16 @@ section li {
 /* Estilização específica de cada uma das skill separada por espaço*/
 .python {width: 60%; background-color: #778da9;} 
 .html {width: 80%; background-color: #778da9;} 
-.css {width: 55%; background-color: #778da9;} 
+.css {width: 50%; background-color: #778da9;} 
 .js {width: 50%; background-color: #778da9;} 
 .git {width: 80%; background-color: #778da9;} 
 .scrum {width: 90%; background-color: #778da9;} 
-.kanban {width: 85%; background-color: #778da9;} 
+.kanban {width: 80%; background-color: #778da9;} 
+
+
+#interesses-pessoais li {
+	color: #0d1b2a;
+}
 
 footer p {
 	text-align: center;
