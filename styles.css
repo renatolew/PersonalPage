@@ -46,19 +46,19 @@ nav a:hover {
 
 .banner {
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 3em;
 }
 
 section {
 	padding: 3em 0;
-	padding-top: 75px;
-	width: 1060px;
+	padding-top: 3em;
+	width: 50%;
 	margin: 0 auto;
     border-bottom: 1px solid #000000	
 }
 
 #sobre {
-	padding-bottom: 120px;
+	padding-bottom: 8em;
 }
 
 .avatar {
@@ -163,16 +163,24 @@ footer p {
 
 
 @media screen and (max-width: 480px) {
-	section, .box-navegacao {
+	section {
 		width: auto;
 	}
 
-	h2, h3, h4, p {
+	h1, h2, h3, h4, p {
 		text-align: center;
 	}
 
+
+	
 	.box-navegacao {
-		position: static;
+		width: 80%;
+		padding-right: 6em;
+		padding-left: 1em;
+	}
+
+	nav li {
+	
 	}
 
 	nav {
@@ -181,5 +189,6 @@ footer p {
 
 	.avatar {
 		float: none;
+		margin-left: 20%;
 	}
 }
