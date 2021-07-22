@@ -97,6 +97,7 @@ section li {
 	margin-bottom: 5px;
 }
 
+/* Estilização para alternar background-color alternadamente entre sections */
 .alt-cor {
 	background-color: #778da9;
 }
@@ -114,7 +115,10 @@ section li {
 	padding-top: 10px; 
 	padding-bottom: 10px; 
 	color: white; 
-	padding-right: 5px;
+	padding-right: 1em;
+	border: 3px groove #0d1b2a;
+	border-radius: 1em;
+	font-weight: bold;
   }
 
 /* Estilização específica de cada uma das skill separada por espaço*/
