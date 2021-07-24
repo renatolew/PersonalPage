@@ -136,7 +136,7 @@ section li {
   }
 
 /* Estilização específica de cada uma das skill separada por espaço*/
-.python {width: 30%; background-color: #778da9;} 
+.python {width: 40%; background-color: #778da9;} 
 .html {width: 80%; background-color: #778da9;} 
 .css {width: 80%; background-color: #778da9;} 
 .js {width: 30%; background-color: #778da9;} 
