@@ -137,11 +137,11 @@ section li {
 
 /* Estilização específica de cada uma das skill separada por espaço*/
 .python {width: 80%; background-color: #778da9;} 
-.git {width: 70%; background-color: #778da9;} 
-.html {width: 70%; background-color: #778da9;} 
-.css {width: 70%; background-color: #778da9;} 
-.js {width: 30%; background-color: #778da9;} 
-.scrum {width: 40%; background-color: #778da9;} 
+.git {width: 80%; background-color: #778da9;} 
+.html {width: 60%; background-color: #778da9;} 
+.css {width: 60%; background-color: #778da9;} 
+.js {width: 25%; background-color: #778da9;} 
+.scrum {width: 30%; background-color: #778da9;} 
 .kanban {width: 20%; background-color: #778da9;} 
 
 .container-flex {
